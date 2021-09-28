@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "resembid",
+    "name": "ResembId",
     "slug": "resembid",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Icon-App-1024x1024.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/resembid-official-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0379AB"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "org.resembid",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/Icon-App-1024x1024.png",
+        "backgroundColor": "#0379AB"
+      },
+      "package": "org.resembid",
+      "versionCode": 1
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "description": "",
+    "owner": "parida01"
   }
 }
